@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <titre>
+        <link rel="stylesheet"href="style.css">
+</head>
+<head>
+	<title>PhotoShop</title>
+	<link rel="stylesheet"href="style.css">
+</head>
+<body>
+
+<nav>
+	<ul>
+		<li>
+			<a href="Page html.html">
+				Accueil
+			</a>
+		</li>
+		<li>
+			<a href="Photoshop">
+			PhotoShop
+			</a>
+		</li>
+		<li>
+			<a href="Projects html.html.hml">
+			Html
+			</a>
+		</li>
+
+	</ul>
+</nav>
+
+<center> <h1><strong>Je vous presentes mes différents projets</h1> </center></strong>
+
+        
+
+<center> <img src="Minia.png" height="50%" width="50%"></center>
+
+
+
+</body>
+</html>
