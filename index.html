@@ -241,8 +241,24 @@
 		<p class="lead">Formulaire d'inscription des boulangeries au concours.</p>
 		<img src="images/inscription.PNG">
 		<p class="lead">Envoi des données dans ma base de données</p>
-		<img src="images/listeinscription.PNG">
+		<img src="images/listeinscription.PNG" alt="Image" id="zoomable-image" onclick="zoomImage()">
 
+		<script>
+			function zoomImage() {
+				var originalImage = document.getElementById('zoomable-image');
+				var zoomRatio = 2; // Ajustez le ratio de zoom selon vos besoins
+				var newWidth = originalImage.width * zoomRatio;
+				var newHeight = originalImage.height * zoomRatio;
+	
+				// Remplacez l'image actuelle par une version agrandie
+				originalImage.setAttribute('src', originalImage.src);
+				originalImage.setAttribute('width', newWidth);
+				originalImage.setAttribute('height', newHeight);
+	
+				// Supprimez l'événement de clic pour éviter de répéter l'agrandissement
+				originalImage.removeAttribute('onclick');
+			}
+		</script>
 		<br>
 		<p class="lead">Pour l'application mobile j'ai créé un bouton qui importe les noms et informations des boulangeries participantes (Mysql -> Sqlite)</p>
 		<img src="images/tel.PNG">
